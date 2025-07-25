@@ -5,7 +5,7 @@ import Image from "next/image"
 export function GuidiumLogo({ className = "" }: { className?: string }) {
   return (
     <div className={`flex items-center ${className}`}>
-      <Image src="/guidium-logo.png" alt="GUIDIUM" width={90} height={90} className="w-[90px] h-[90px]" />
+      <Image src="/images/guidium-logo.png" alt="GUIDIUM" width={90} height={90} className="w-[90px] h-[90px]" />
     </div>
   )
 }
